@@ -7,7 +7,7 @@ from pinecone import Pinecone
 import streamlit.components.v1 as components
 
 def login():
-    """Toont login scherm en controleert wachtwoord"""
+    """Toont login scherm en controleert wachtwoord22"""
     if "logged_in" not in st.session_state:
         st.session_state.logged_in = False
 
