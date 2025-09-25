@@ -1,0 +1,20 @@
+# Geen env-bestanden in git
+.env
+.env.*
+
+# Python cache en build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+venv
+
+# OS-specifieke files
+.DS_Store
+Thumbs.db
+
+notes.txt
