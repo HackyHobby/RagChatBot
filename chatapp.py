@@ -41,7 +41,7 @@ PINECONE_INDEX_NAME = st.secrets["PINECONE_INDEX_NAME"]
 
 APP_VERSION = "v0.3.6"
 
-EMBED_MODEL = "text-embedding-3-small"
+EMBED_MODEL = "text-embedding-3-large"
 PRIMARY_MODEL = "gpt-5"
 FALLBACK_MODEL = "gpt-4o-mini"
 MAX_COMPLETION_TOKENS = 600
