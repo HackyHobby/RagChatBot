@@ -7,7 +7,7 @@ from pinecone import Pinecone
 import streamlit.components.v1 as components
 
 def login():
-    """Toont login scherm en controleert wachtwoord22"""
+    """Toont login scherm en controleert wachtwoord"""
     if "logged_in" not in st.session_state:
         st.session_state.logged_in = False
 
@@ -199,8 +199,8 @@ window.onload = function() {
 
 components.html(
     f"""
-        <div>some hidden container</div>
-        <p>{st.session_state.counter}</p>
+        <div style="display: none;">some hidden container
+        <p>{st.session_state.counter}</p></div>
         <script>
             var input = window.parent.document.querySelector('textarea[data-testid="stChatInputTextArea"]');
             input.focus();
